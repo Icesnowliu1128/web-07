@@ -9,7 +9,7 @@
 }
 .head{
 	width:1200px;
-	height:32px;
+	height:33px;
 	margin:0 auto;
 	line-height:32px;
 }
@@ -18,7 +18,6 @@
 }
 .head_right{
 	float:right;
-	font-size:12px;
 	color:black;
 }
 .head_right span{
@@ -32,6 +31,7 @@
 }
 .head span a{
 	text-decoration:none;
+	color:black;
 }
 .saomiao{
     position:relative;
@@ -59,7 +59,7 @@ body{
 }
 .search form input:nth-child(1){
 	width:385px;
-	height:36px;
+	height:34px;
 	padding-left:18px;
 	padding-top:1px;
 	font-size:13px;
@@ -70,7 +70,7 @@ body{
 	width:92px;
 	height:38px;
 	border:1px solid #f83838;
-		background-color:#f83838;
+	background-color:#f83838;
 	color:#fff;
 	font-size:18px;
 	margin-left:-8px;
@@ -113,15 +113,16 @@ body{
 }
 .list_1 li{
 	width:89px;
-	height:33px;
+	height:35px;
 	padding:0px 54px;
 	font-size:16px;
 	float:left;
 }
 .list_1 li a{
 	text-decoration:none;
+    color:black;
 }
-.visited{
+#visited{
 	background-color:rgb(253,3,4);
     color:rgb(255,221,221);
     border-radius:8px;
@@ -163,11 +164,25 @@ body{
    background-color:rgb(255,255,255);
 }
 .images ul li{
+	width:220px;
+	height:254px;
     float:left;
     list-style:none;
-    padding-top:20px;
-    padding-left:17px;
+    margin-top:18px;
+    margin-left:17px;
+    border:1px solid rgb(219,219,219);
 }
+.images ul li p{
+	text-align:center;
+	font-size:16px;
+	line-height:20px;
+    color:rgb(163,163,163);
+}
+.images ul li p span{
+	color:rgb(51,51,51);
+	font-size:15px;
+}
+
 .up{
 	width:auto;
 	height:247px;
